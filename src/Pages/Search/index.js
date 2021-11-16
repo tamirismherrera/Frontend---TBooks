@@ -15,7 +15,7 @@ export default function SearchPage(){
 
     const [book, setBook] = useState("");
     const [result, setResult] = useState([]);
-    const apiKey = "AIzaSyB_Bn8K6F2JbuqxkGAGq6fPPfhpIMEjAqc";
+    const apiKey = "key";
     const [userId, setUserId] = useState();
     const [loading, setLoading] = useState(false); // definindo o estado do loading
     const [livrosFavoritos, setLivrosFavoritos] = [];
